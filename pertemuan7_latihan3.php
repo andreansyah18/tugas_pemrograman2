@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Penggunaan join</title>
+</head>
+<body>
+
+<?php
+$var = array('18', '11', '2010');
+$tanggal = implode("/", $var);
+
+echo $tanggal;
+?>
+
+</body>
+</html>
